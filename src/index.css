@@ -213,6 +213,7 @@ button:hover {
 .candidates-table td {
   background-color: var(--card-bg);
   padding: 1rem;
+  color: var(--text-primary);
 }
 
 .candidates-table tr {
@@ -270,4 +271,21 @@ a:hover {
   padding: 3rem;
   color: var(--text-secondary);
   font-size: 1.2rem;
+}
+
+/* Update text colors for better readability */
+.candidate-info p {
+  color: var(--text-primary);
+  margin: 0.5rem 0;
+}
+
+.candidate-info strong {
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+/* If any text is still hard to read, add this class */
+.text-light {
+  color: var(--text-primary);
+  opacity: 0.9;
 }
