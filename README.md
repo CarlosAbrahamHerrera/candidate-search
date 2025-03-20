@@ -1,33 +1,58 @@
-# React + TypeScript + Vite
+# GitHub Candidate Search App 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is this?
+This is my Module 13 challenge where I made an app that helps you search through GitHub users like you're on a hiring app! You can swipe (well, click buttons) through different GitHub profiles and save the ones you like.
 
-Currently, two official plugins are available:
+## How it works
+- Click through GitHub profiles
+- Hit the + button if you like them
+- Hit the - button if you want to skip
+- Check your saved candidates in the "Saved Candidates" page
+- Your saved candidates stay there even if you refresh!
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Cool features I added
+- Sort your saved candidates by name, location, or company
+- Filter through your saved candidates
+- Nice blue gradient background
+- Glassmorphism effect on the cards (learned that from YouTube!)
 
-## Expanding the ESLint configuration
+## Screenshots
+[Add screenshots here]
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## How to use it
+1. Clone this repo
+2. Make a `.env` file and add your GitHub token like this:
+   ```
+   VITE_GITHUB_TOKEN=your_token_here
+   ```
+3. Run `npm install`
+4. Run `npm run dev`
+5. Check it out at http://localhost:5173
 
-* Configure the top-level `parserOptions` property as follows:
+## What I used
+- React (with TypeScript which was kinda hard at first)
+- Vite (super fast!)
+- GitHub API
+- localStorage for saving candidates
+- CSS for making it look nice
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## What I learned
+- How to use TypeScript with React
+- Working with APIs and environment variables
+- Using localStorage to save data
+- React Router for navigation
+- That CSS gradients are pretty cool
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Links
+- Live site: [Add Render URL here]
+- GitHub repo: https://github.com/CarlosAbrahamHerrera/candidate-search
+
+## Note
+This was part of my bootcamp homework. I got help from:
+- Class materials
+- My instructor
+- Stack Overflow (especially for TypeScript errors 😅)
+- The Xpert Learning Assistant
 
 ---
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Made with 💻 and lots of ☕
