@@ -17,7 +17,9 @@ This is my Module 13 challenge where I made an app that helps you search through
 - Glassmorphism effect on the cards (learned that from YouTube!)
 
 ## Screenshots
-[Add screenshots here]
+![Screenshot](/public/main-page.png)
+![Screenshot](/public/saved-candidates.png)
+
 
 ## How to use it
 1. Clone this repo
