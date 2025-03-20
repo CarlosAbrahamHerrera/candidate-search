@@ -289,3 +289,25 @@ a:hover {
   color: var(--text-primary);
   opacity: 0.9;
 }
+
+/* Target all text in candidate cards and tables */
+.candidate-card p,
+.candidate-card span,
+.candidate-card div,
+.candidates-table td,
+.candidates-table th {
+  color: #ffffff !important; /* Force white text */
+}
+
+/* Specifically target the label text */
+.candidate-info p strong,
+.table-info strong {
+  color: var(--accent) !important; /* Teal color for labels */
+}
+
+/* Make sure links stay visible but distinct */
+.candidate-card a,
+.candidates-table a {
+  color: var(--accent);
+  text-decoration: underline;
+}
