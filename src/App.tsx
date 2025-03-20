@@ -5,9 +5,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
     </>
   );
 }
