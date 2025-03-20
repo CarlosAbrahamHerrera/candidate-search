@@ -46,7 +46,7 @@ This is my Module 13 challenge where I made an app that helps you search through
 - That CSS gradients are pretty cool
 
 ## Links
-- Live site: [Add Render URL here]
+- Live site: https://candidate-search-ns6v.onrender.com/
 - GitHub repo: https://github.com/CarlosAbrahamHerrera/candidate-search
 
 ## Note
